@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #020617;
+    background-image: url("https://www.heropatterns.com/patterns/graph-paper.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background: white;
+    padding: 40px;
+    width: 420px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.35);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.student {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.order {
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#output {
+    margin-top: 15px;
+    color: #16a34a;
+}
